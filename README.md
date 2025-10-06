@@ -147,17 +147,15 @@ A continuación, se presenta evaluación de los modelos
 ## 5. Conclusión General  
 
 Basado en las métricas de evaluación detalladas, el modelo **K-Vecinos
-Más Cercanos (KNN)** es inequívocamente el que ofrece el mejor
-rendimiento general para predecir la supervivencia en este problema de
-clasificación.
+Más Cercanos (KNN)** es el que ofrece el mejor rendimiento general para 
+predecir la supervivencia en este problema de clasificación.
 
 El alto valor de *Accuracy* del 82.68% es un excelente indicador de su
 rendimiento global. Sin embargo, su verdadera fortaleza reside en el
 balance que logra entre **Precision** y **Recall** (demostrado por el
 F1-Score de 0.78). En un contexto como este, es deseable un *Recall*
-alto para minimizar la subestimación de la supervivencia real (reducir
-los Falsos Negativos), y el KNN lo maneja mejor que el Árbol de Decisión
-o la Regresión Logística.
+alto para reducir los Falsos Negativos, y el KNN lo maneja mejor que el 
+Árbol de Decisión o la Regresión Logística.
 
 
 

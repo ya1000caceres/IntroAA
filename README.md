@@ -1,4 +1,4 @@
-### Proyecto ML inicial — clasificación y regresión
+# Proyecto ML inicial — clasificación y regresión
 
 ### A-Clasificación
 **1. Análisis Exploratorio de Datos (EDA) y Preprocesamiento**

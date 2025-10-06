@@ -6,7 +6,7 @@
 
 
 ## 1. Carga y Exploración Inicial de Datos
-El proceso de EDA y limpieza fue desarrollado en el _notebook_ boston_eda1.ipynb.
+El proceso de EDA y limpieza fue desarrollado en el _notebook_ classification_eda1.ipynb.
 
 - **Carga del Dataset**: Se utilizó la librería **pandas** para cargar los datos desde el archivo titanic.csv.
 - **Análisis Preliminar**:
@@ -41,6 +41,7 @@ Se generaron visualizaciones para entender mejor la distribución de los datos y
 El proceso resultó en un **DataFrame limpio y preprocesado**, que fue exportado al archivo titanic_eda_final.csv.
 
 ## 5\. Modelos de Clasificación Evaluados
+El proceso de entrenamiento fue desarrollado en el notebook classification.ipynb.
 
 Se entrenaron y evaluaron los siguientes tres modelos:
 
@@ -94,7 +95,7 @@ Aunque el Árbol de Decisión tiene el recall más alto para los sobrevivientes,
 
 
 ## 1. Carga y Exploración Inicial de Datos
-El proceso de EDA y limpieza fue desarrollado en el _notebook_ boston_eda1.ipynb.
+El proceso de EDA y limpieza fue desarrollado en el _notebook_ regression_eda2.ipynb.
 - **Carga del Dataset**: Se utilizó la librería **pandas** para cargar los datos desde el archivo boston.csv.
 - **Análisis Preliminar**:
   - Se revisaron las primeras filas con df.head() para tener una visión general de la estructura.
